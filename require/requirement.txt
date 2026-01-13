@@ -16,3 +16,6 @@ dask-labextension
 fuse-python
 llfuse
 gridfs-fuse
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+bokeh>=3.8.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
