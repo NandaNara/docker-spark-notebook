@@ -16,3 +16,4 @@ dask-labextension
 fuse-python
 llfuse
 gridfs-fuse
+nbconvert>=7.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
